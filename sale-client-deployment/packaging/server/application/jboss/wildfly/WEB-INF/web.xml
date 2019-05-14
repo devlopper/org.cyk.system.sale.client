@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	
+	<display-name>sale Client</display-name>
+	
+	<context-param>
+		<description>The theme class</description>
+		<param-name>cyk.user.interface.theme.class.name</param-name>
+		<param-value>${web.context.parameter.theme.class.value}</param-value>
+	</context-param>
+	
+	<context-param>
+		<description>The theme identifier</description>
+		<param-name>${web.context.parameter.theme.identifier.name}</param-name>
+		<param-value>${web.context.parameter.theme.identifier.value}</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>web.context.parameter.theme.favicon.file.folder</param-name>
+		<param-value>${web.context.parameter.theme.favicon.file.folder}</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>web.context.parameter.theme.favicon.file.name.prefix</param-name>
+		<param-value>${web.context.parameter.theme.favicon.file.name.prefix}</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>web.context.parameter.theme.favicon.file.name.extension</param-name>
+		<param-value>${web.context.parameter.theme.favicon.file.name.extension}</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>cyk.context.parameter.theme.logo.file.resources.folder</param-name>
+		<param-value>${cyk.context.parameter.theme.logo.file.resources.folder}</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>cyk.context.parameter.theme.logo.file.folder</param-name>
+		<param-value>${cyk.context.parameter.theme.logo.file.folder}</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>cyk.context.parameter.theme.logo.file.name.prefix</param-name>
+		<param-value>${cyk.context.parameter.theme.logo.file.name.prefix}</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>cyk.context.parameter.theme.logo.file.name.extension</param-name>
+		<param-value>${cyk.context.parameter.theme.logo.file.name.extension}</param-value>
+	</context-param>
+		
+</web-app>
