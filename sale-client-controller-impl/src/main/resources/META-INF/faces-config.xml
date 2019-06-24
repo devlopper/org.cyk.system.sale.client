@@ -15,6 +15,12 @@
 			<redirect />
 		</navigation-case-->
 		
+		<navigation-case>
+			<from-outcome>saleEditView</from-outcome>
+			<to-view-id>/private/sale/create.xhtml</to-view-id>
+			<redirect />
+		</navigation-case>
+		
 	</navigation-rule>
 
 </faces-config>
